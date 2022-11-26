@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeXSharp", "CodeXSharp\CodeXSharp.csproj", "{464941A4-39C4-4B04-AFD5-2B1E06CF7F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XProxy", "XProxy\XProxy.csproj", "{3425C690-E20D-4AA5-B93F-41EFD4150ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSolver", "XSolver\XSolver.csproj", "{3E627CCF-FF9C-4CB0-995C-8090392834AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{464941A4-39C4-4B04-AFD5-2B1E06CF7F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464941A4-39C4-4B04-AFD5-2B1E06CF7F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464941A4-39C4-4B04-AFD5-2B1E06CF7F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464941A4-39C4-4B04-AFD5-2B1E06CF7F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3425C690-E20D-4AA5-B93F-41EFD4150ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3425C690-E20D-4AA5-B93F-41EFD4150ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3425C690-E20D-4AA5-B93F-41EFD4150ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3425C690-E20D-4AA5-B93F-41EFD4150ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E627CCF-FF9C-4CB0-995C-8090392834AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E627CCF-FF9C-4CB0-995C-8090392834AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E627CCF-FF9C-4CB0-995C-8090392834AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E627CCF-FF9C-4CB0-995C-8090392834AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {678F1CBC-435E-438B-BCF1-C55357D96484}
+	EndGlobalSection
+EndGlobal
