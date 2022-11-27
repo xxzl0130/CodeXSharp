@@ -40,6 +40,9 @@ public class SquadProperty
 [JsonObject(MemberSerialization.OptIn)]
 public class SquadPropertyBlock : SquadProperty
 {
+    /// <summary>
+    /// 自由格数or偏差格数
+    /// </summary>
     [JsonProperty("free")]
     public int Free;
 }

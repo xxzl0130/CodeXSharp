@@ -1,0 +1,36 @@
+{
+    "name": "AGS-30",
+    "config": {
+        "AGS-30": {
+            "file": "AGS-30-result",
+            "blank": 0
+        }
+    },
+    "width": 8,
+    "height": 8,
+    "blocks": 38,
+    "color": 1,
+    "palindrome": 2,
+    "map": [
+        "11001111",
+        "10000111",
+        "00000011",
+        "00000001",
+        "10000000",
+        "11000000",
+        "11100001",
+        "11110011"
+    ],
+    "MaxBlocks": {
+        "damage": 10,
+        "def_break": 5,
+        "hit": 7,
+        "reload": 16
+    },
+    "MaxValues": {
+        "damage": 106,
+        "def_break": 130,
+        "hit": 120,
+        "reload": 233
+    }
+}

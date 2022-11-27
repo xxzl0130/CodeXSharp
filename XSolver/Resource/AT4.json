@@ -1,0 +1,36 @@
+{
+    "name": "AT4",
+    "config": {
+        "AT4": {
+            "file": "AT4-result",
+            "blank": 0
+        }
+    },
+    "width": 8,
+    "height": 8,
+    "blocks": 36,
+    "color": 2,
+    "palindrome": 1,
+    "map": [
+        "11100111",
+        "11000011",
+        "10000001",
+        "00011000",
+        "00011000",
+        "10000001",
+        "11000011",
+        "11100111"
+    ],
+    "MaxBlocks": {
+        "damage": 14,
+        "def_break": 8,
+        "hit": 9,
+        "reload": 5
+    },
+    "MaxValues": {
+        "damage": 166,
+        "def_break": 261,
+        "hit": 174,
+        "reload": 75
+    }
+}

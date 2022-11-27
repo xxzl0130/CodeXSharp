@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System.Diagnostics;
+using Newtonsoft.Json;
 
 namespace XSolver;
 
@@ -20,14 +21,14 @@ public struct ChipInPuzzle
     public int Rotate;
 
     public Point Position;
-
+    
     [JsonProperty("x")]
     private int __x
     {
         get => Position.X;
         set => Position.X = value;
     }
-
+    
     [JsonProperty("y")]
     private int __y
     {
@@ -37,16 +38,9 @@ public struct ChipInPuzzle
 }
 
 /// <summary>
-/// 一组解决方案
+/// 一个解决方案，由若干芯片组成
 /// </summary>
-public class PuzzleSolution
+public class PuzzleSolution : List<ChipInPuzzle>
 {
-    /// <summary>
-    /// 使用的芯片配置
-    /// </summary>
-    public List<ChipInPuzzle> Chips = new ();
-    /// <summary>
-    /// 空白格数
-    /// </summary>
-    public int BlankBlocks = 0;
+
 }

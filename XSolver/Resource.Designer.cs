@@ -63,9 +63,279 @@ namespace XSolver {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        internal static byte[] _2B14 {
+            get {
+                object obj = ResourceManager.GetObject("_2B14", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] _2B14_52_result {
+            get {
+                object obj = ResourceManager.GetObject("_2B14_52_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] _2B14_result {
+            get {
+                object obj = ResourceManager.GetObject("_2B14_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] AGS_30 {
+            get {
+                object obj = ResourceManager.GetObject("AGS_30", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] AGS_30_result {
+            get {
+                object obj = ResourceManager.GetObject("AGS_30_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] AT4 {
+            get {
+                object obj = ResourceManager.GetObject("AT4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] AT4_5_result {
+            get {
+                object obj = ResourceManager.GetObject("AT4_5_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] AT4_6_result {
+            get {
+                object obj = ResourceManager.GetObject("AT4_6_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] BGM_71 {
+            get {
+                object obj = ResourceManager.GetObject("BGM_71", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] BGM_71_result {
+            get {
+                object obj = ResourceManager.GetObject("BGM_71_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         internal static byte[] chips {
             get {
                 object obj = ResourceManager.GetObject("chips", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] M2 {
+            get {
+                object obj = ResourceManager.GetObject("M2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] M2_5_0_result {
+            get {
+                object obj = ResourceManager.GetObject("M2_5_0_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] M2_5_2_result {
+            get {
+                object obj = ResourceManager.GetObject("M2_5_2_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] M2_5_3_result {
+            get {
+                object obj = ResourceManager.GetObject("M2_5_3_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] M2_6_2_result {
+            get {
+                object obj = ResourceManager.GetObject("M2_6_2_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Mk_153 {
+            get {
+                object obj = ResourceManager.GetObject("Mk_153", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Mk_153_52_result {
+            get {
+                object obj = ResourceManager.GetObject("Mk_153_52_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Mk_153_result {
+            get {
+                object obj = ResourceManager.GetObject("Mk_153_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Mk_47 {
+            get {
+                object obj = ResourceManager.GetObject("Mk_47", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Mk_47_result {
+            get {
+                object obj = ResourceManager.GetObject("Mk_47_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] PP_93 {
+            get {
+                object obj = ResourceManager.GetObject("PP_93", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] PP_93_2_result {
+            get {
+                object obj = ResourceManager.GetObject("PP_93_2_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] PP_93_4_result {
+            get {
+                object obj = ResourceManager.GetObject("PP_93_4_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] PP_93_result {
+            get {
+                object obj = ResourceManager.GetObject("PP_93_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] QLZ_04 {
+            get {
+                object obj = ResourceManager.GetObject("QLZ_04", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] QLZ_04_result {
+            get {
+                object obj = ResourceManager.GetObject("QLZ_04_result", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] squads {
+            get {
+                object obj = ResourceManager.GetObject("squads", resourceCulture);
                 return ((byte[])(obj));
             }
         }

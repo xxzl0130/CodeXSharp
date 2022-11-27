@@ -1,7 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿using System.Diagnostics;
+using Newtonsoft.Json;
 
 namespace XSolver;
 
+[DebuggerDisplay("({X},{Y})")]
 public struct Point
 {
     public int X;

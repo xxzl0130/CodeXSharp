@@ -1,0 +1,45 @@
+{
+    "name": "M2",
+    "config": {
+        "只用6格-空2格": {
+            "file": "M2-6-2-result",
+            "blank": 2
+        },
+        "使用5格-填满": {
+            "file": "M2-5-0-result",
+            "blank": 0
+        },
+        "使用5格-空2格": {
+            "file": "M2-5-2-result",
+            "blank": 2
+        }
+    },
+    "width": 8,
+    "height": 8,
+    "blocks": 38,
+    "color": 2,
+    "palindrome": 2,
+    "map": [
+        "00011110",
+        "10001100",
+        "11001000",
+        "11000001",
+        "10000011",
+        "00010011",
+        "00110001",
+        "01111000"
+    ],
+    "MaxBlocks": {
+        "damage": 18,
+        "def_break": 2,
+        "hit": 5,
+        "reload": 10,
+        "free": 1
+    },
+    "MaxValues": {
+        "damage": 206,
+        "def_break": 60,
+        "hit": 97,
+        "reload": 148
+    }
+}

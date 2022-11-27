@@ -1,0 +1,35 @@
+{
+    "name": "QLZ-04",
+    "config": {
+        "QLZ-04": {
+            "file": "QLZ-04-result",
+            "blank": 0
+        }
+    },
+    "width": 8,
+    "height": 7,
+    "blocks": 38,
+    "color": 1,
+    "palindrome" : 0,
+    "map": [
+        "00111100",
+        "00011000",
+        "00000000",
+        "00000000",
+        "10000001",
+        "11000011",
+        "11100111"
+    ],
+    "MaxBlocks": {
+        "damage": 10,
+        "def_break": 5,
+        "hit": 7,
+        "reload": 16
+    },
+    "MaxValues": {
+        "damage": 122,
+        "def_break": 143,
+        "hit": 132,
+        "reload": 233
+    }
+}

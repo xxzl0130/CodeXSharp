@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Text;
 using Newtonsoft.Json;
 
 namespace XSolver;
@@ -19,6 +20,11 @@ public class SquadConfig
         public int BlankBlocks = 0;
         [JsonProperty("file")]
         public string ConfigFile = string.Empty;
+        /// <summary>
+        /// 拼图方案，由ConfigFile加载
+        /// </summary>
+        [JsonIgnore]
+        public List<PuzzleSolution> Solutions = new ();
     }
     /// <summary>
     /// 方案表
@@ -54,8 +60,27 @@ public class SquadConfig
     public string[] Map = Array.Empty<string>();
 
     [JsonProperty("MaxValues")]
-    public SquadProperty MaxValue;
+    public SquadProperty MaxValue = new ();
 
     [JsonProperty("MaxBlocks")]
-    public SquadPropertyBlock MaxBlock;
+    public SquadPropertyBlock MaxBlock = new ();
+
+    public static SquadConfig? LoadFromResource(string resourceName)
+    {
+        var data = Utils.GetResourceFileString(resourceName);
+        if (string.IsNullOrEmpty(data))
+            return null;
+        var config = JsonConvert.DeserializeObject<SquadConfig>(data);
+        if (config == null)
+            return config;
+        foreach (var solutionConfig in config.SolutionConfigs)
+        {
+            data = Utils.GetResourceFileString(solutionConfig.Value.ConfigFile);
+            if (string.IsNullOrEmpty(data))
+                continue;
+            solutionConfig.Value.Solutions = JsonConvert.DeserializeObject<List<PuzzleSolution>>(data)!;
+        }
+
+        return config;
+    }
 }
